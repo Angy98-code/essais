@@ -1,0 +1,63 @@
+.engloobecarte {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+aside a {
+  text-decoration: none;
+  flex-wrap: nowrap;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prix {
+  background-color: pink;
+  width: 50%;
+  height: 80px;
+  color: black;
+  white-space: nowrap;
+  padding: 0px 5%;
+  z-index: 1;
+  text-align: center;
+  transform-origin: right;
+}
+
+aside h2 {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.zero {
+  background-color: green;
+  width: 40%;
+  height: 80px;
+  white-space: nowrap;
+  transform-origin: right;
+  opacity: 0;
+}
+
+.zero:hover {
+  width: 30%;
+  transform-origin: right;
+  z-index: 1;
+  opacity: 1;
+}
+
+aside {
+  margin: 50px;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */

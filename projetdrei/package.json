@@ -1,0 +1,20 @@
+{
+  "name": "projetdrei",
+  "version": "1.0.0",
+  "description": "projet 3 avec sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    
+    "url": "git+https://github.com/Angy98-code/AngelikaReinert_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angy98-code/AngelikaReinert_3/issues"
+  },
+  "homepage": "https://github.com/Angy98-code/AngelikaReinert_3#readme"
+}
